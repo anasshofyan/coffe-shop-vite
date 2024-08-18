@@ -4,6 +4,7 @@ import MainLayout from "./layouts/MainLayout"
 import { GlobalStyles } from "./styles/Global.styles"
 import { Route, Routes } from "react-router-dom"
 import HomePage from "./pages/HomePage"
+import "react-multi-carousel/lib/styles.css"
 
 function App() {
     return (

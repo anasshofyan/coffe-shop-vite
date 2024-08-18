@@ -4,6 +4,9 @@ const BaseButton = css`
     border: none;
     color: white;
     padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     text-decoration: none;
     display: inline-block;

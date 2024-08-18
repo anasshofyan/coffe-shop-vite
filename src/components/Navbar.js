@@ -1,12 +1,17 @@
 import styled from "styled-components"
 
 const Navbar = styled.nav`
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: ${({ theme }) => theme.colors.primary};
     display: flex;
     justify-content: space-between;
     padding: 10px;
     align-items: center;
     color: white;
+    z-index: 1000;
 `
 
 export const NavbarWrapper = styled.div`
@@ -20,12 +25,10 @@ export const NavbarWrapper = styled.div`
 
     @media (min-width: 768px) {
         flex-direction: row;
-        display: flex;
     }
 
     @media (max-width: 768px) {
         padding: 0 10px;
-        display: flex;
     }
 
     @media (max-width: 480px) {
@@ -44,7 +47,6 @@ export const NavItem = styled.button`
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    justify-content: space-between;
     margin: 4px 2px;
     cursor: pointer;
     text-transform: uppercase;

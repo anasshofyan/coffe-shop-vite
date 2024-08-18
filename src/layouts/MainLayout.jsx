@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { Instagram, MapPin, Menu } from "lucide-react"
 import { EnumIcons } from "../constants/EnumIcons"
 import Navbar, {
@@ -10,8 +9,9 @@ import Navbar, {
 import Logo from "../components/common/Logo"
 import { ShowOnDesktop, ShowOnMobile } from "../styles/Global.styles"
 import Button from "../components/common/Button"
+import { Outlet } from "react-router-dom"
 
-const MainLayout = ({ children }) => {
+const MainLayout = () => {
     return (
         <div>
             <Navbar>
@@ -52,7 +52,7 @@ const MainLayout = ({ children }) => {
                     </ShowOnDesktop>
                 </NavbarWrapper>
             </Navbar>
-            {children}
+            <Outlet />
         </div>
     )
 }
