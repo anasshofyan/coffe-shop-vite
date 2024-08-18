@@ -4,7 +4,7 @@ const Navbar = styled.nav`
     background-color: ${({ theme }) => theme.colors.primary};
     display: flex;
     justify-content: space-between;
-    padding: 14px;
+    padding: 10px;
     align-items: center;
     color: white;
 `
@@ -39,11 +39,11 @@ export const NavItem = styled.button`
     background-color: ${({ theme }) => theme.colors.primary};
     border: none;
     color: white;
-    padding: 14px 20px;
+    padding: 12px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
     justify-content: space-between;
     margin: 4px 2px;
     cursor: pointer;
