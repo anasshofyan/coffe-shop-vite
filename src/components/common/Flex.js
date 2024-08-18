@@ -7,6 +7,7 @@ const Flex = styled.div`
     align-items: ${(props) => props.align || "stretch"};
     gap: ${(props) => props.gap || "0"};
     width: 100%;
+    box-sizing: border-box;
 `
 
 export default Flex
