@@ -11,7 +11,6 @@ const MenuSection = () => (
             <Image
                 src={EnumIcons.THUMB_1}
                 height="500px"
-                width="100%"
                 alt="Menu Point Coffe"
             />
         </Flex>

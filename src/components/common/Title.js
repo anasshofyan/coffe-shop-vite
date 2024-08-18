@@ -5,6 +5,11 @@ const Title = styled.h1`
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 1rem;
+
+    @media (max-width: 768px) {
+        font-size: 24px;
+        text-align: center;
+    }
 `
 
 export default Title
