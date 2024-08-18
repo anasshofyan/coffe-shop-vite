@@ -8,6 +8,7 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     font-family: 'Lato', sans-serif;
     background-color: ${({ theme }) => theme.colors.light};
+    background-image: url(${({ theme }) => theme.backgroundImage});
     color: ${({ theme }) => theme.colors.dark};
   }
 `

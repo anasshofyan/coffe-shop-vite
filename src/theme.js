@@ -5,6 +5,7 @@ export const theme = {
         default: EnumIcons.LOGO_WHITE,
         burger: "https://www.flaticon.com/svg/static/icons/svg/1946/1946433.svg",
     },
+    backgroundImage: EnumIcons.BG_ABSTRACT,
     colors: {
         primary: "#007d48",
         secondary: "#6c757d",
