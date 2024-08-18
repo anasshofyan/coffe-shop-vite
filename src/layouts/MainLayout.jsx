@@ -14,35 +14,38 @@ import { Outlet } from "react-router-dom"
 const MainLayout = () => {
     return (
         <div>
-            <Navbar>
-                <NavbarWrapper>
+            <Navbar role="navbar">
+                <NavbarWrapper role="navbar-wrapper">
                     <ShowOnMobile>
-                        <NavIcons>
-                            <Button variant="secondary">
+                        <NavIcons role="nav-icons">
+                            <Button role="icon-show-menu" variant="secondary">
                                 <Menu size={30} />
                             </Button>
                         </NavIcons>
                     </ShowOnMobile>
                     <ShowOnMobile>
-                        <Button variant="secondary">
+                        <Button role="logo-point-coffe" variant="secondary">
                             <Logo src={EnumIcons.LOGO_WHITE} />
                         </Button>
                     </ShowOnMobile>
                     <ShowOnDesktop>
-                        <Logo src={EnumIcons.LOGO_WHITE} />
+                        <Logo
+                            role="logo-point-coffe"
+                            src={EnumIcons.LOGO_WHITE}
+                        />
                     </ShowOnDesktop>
                     <ShowOnDesktop>
-                        <NavMenu>
-                            <NavItem>Promotions</NavItem>
-                            <NavItem>Menu</NavItem>
-                            <NavItem>Fun Fact</NavItem>
-                            <NavItem>Our Story</NavItem>
-                            <NavItem>Feedback</NavItem>
-                            <NavItem>Membership</NavItem>
+                        <NavMenu role="nav-menu">
+                            <NavItem role="nav-item">Promotions</NavItem>
+                            <NavItem role="nav-item">Menu</NavItem>
+                            <NavItem role="nav-item">Fun Fact</NavItem>
+                            <NavItem role="nav-item">Our Story</NavItem>
+                            <NavItem role="nav-item">Feedback</NavItem>
+                            <NavItem role="nav-item">Membership</NavItem>
                         </NavMenu>
                     </ShowOnDesktop>
                     <ShowOnDesktop>
-                        <NavIcons>
+                        <NavIcons role="nav-icons">
                             <Instagram
                                 size={30}
                                 style={{ marginTop: "10px" }}

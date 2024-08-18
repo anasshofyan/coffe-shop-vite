@@ -5,7 +5,7 @@ import Image from "./common/Image"
 import Title from "./common/Title"
 
 const MenuSection = () => (
-    <Container>
+    <Container role="menu-section">
         <Flex direction="column">
             <Title>Seasonal Menu</Title>
             <Image

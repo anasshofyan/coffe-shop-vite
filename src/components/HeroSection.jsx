@@ -6,17 +6,19 @@ import { HeroImages } from "./HeroImages"
 import { EnumResponsive } from "../constants/EnumResponsive"
 
 const HeroSection = () => (
-    <Carousel responsive={EnumResponsive}>
-        {HeroImages.map((image, index) => (
-            <HeroSectionStyles key={index}>
-                <Image src={image.src} alt="hero image" />
-                <Button style={{ position: "absolute" }} variant="primary">
-                    {image.icon}
-                    {image.buttonText}
-                </Button>
-            </HeroSectionStyles>
-        ))}
-    </Carousel>
+    <section role="banner">
+        <Carousel responsive={EnumResponsive}>
+            {HeroImages.map((image, index) => (
+                <HeroSectionStyles key={index}>
+                    <Image src={image.src} alt="hero image" />
+                    <Button style={{ position: "absolute" }} variant="primary">
+                        {image.icon}
+                        {image.buttonText}
+                    </Button>
+                </HeroSectionStyles>
+            ))}
+        </Carousel>
+    </section>
 )
 
 export default HeroSection
