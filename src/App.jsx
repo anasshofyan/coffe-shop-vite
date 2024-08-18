@@ -1,7 +1,7 @@
 import { ThemeProvider } from "styled-components"
 import { theme } from "./theme"
-import { GlobalStyles } from "./styles/GlobalStyles"
 import MainLayout from "./layouts/MainLayout"
+import { GlobalStyles } from "./styles/Global.styles"
 
 function App() {
     return (
