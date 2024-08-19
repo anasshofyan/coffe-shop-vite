@@ -5,6 +5,7 @@ import { GlobalStyles } from "./styles/Global.styles"
 import { Route, Routes } from "react-router-dom"
 import HomePage from "./pages/HomePage"
 import "react-multi-carousel/lib/styles.css"
+import MenuPage from "./pages/MenuPage"
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<MainLayout />}>
                     <Route index path="/" element={<HomePage />} />
+                    <Route path="/menu" element={<MenuPage />} />
                 </Route>
             </Routes>
         </ThemeProvider>

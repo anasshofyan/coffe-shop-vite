@@ -55,6 +55,15 @@ export const NavItem = styled.button`
         color: ${({ theme }) => theme.colors.primary};
         transition: background-color 0.2s;
     }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    &:hover a {
+        color: ${({ theme }) => theme.colors.primary};
+    }
 `
 
 export const NavMenu = styled.div`

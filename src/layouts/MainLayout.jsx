@@ -9,7 +9,7 @@ import Navbar, {
 import Logo from "../components/common/Logo"
 import { ShowOnDesktop, ShowOnMobile } from "../styles/Global.styles"
 import Button from "../components/common/Button"
-import { Outlet } from "react-router-dom"
+import { Link, Outlet } from "react-router-dom"
 
 const MainLayout = () => {
     return (
@@ -29,12 +29,16 @@ const MainLayout = () => {
                         </Button>
                     </ShowOnMobile>
                     <ShowOnDesktop>
-                        <Logo role="img" src={EnumIcons.LOGO_WHITE} />
+                        <Link to="/">
+                            <Logo role="img" src={EnumIcons.LOGO_WHITE} />
+                        </Link>
                     </ShowOnDesktop>
                     <ShowOnDesktop>
                         <NavMenu role="menu">
                             <NavItem role="nav-item">Promotions</NavItem>
-                            <NavItem role="nav-item">Menu</NavItem>
+                            <NavItem role="nav-item">
+                                <Link to="/menu">Menu</Link>
+                            </NavItem>
                             <NavItem role="nav-item">Fun Fact</NavItem>
                             <NavItem role="nav-item">Our Story</NavItem>
                             <NavItem role="nav-item">Feedback</NavItem>
