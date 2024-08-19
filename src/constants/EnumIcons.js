@@ -16,5 +16,9 @@ export const EnumIcons = {
     COFEE_3: `${hostImageUrl}/coffee/cofee_3_c7Bd_GHRj.jpg?updatedAt=1724048662318`,
     COFEE_4: `${hostImageUrl}/coffee/cofee_4_xyaO1muTQ.jpg?updatedAt=1724048662191`,
     COFEE_5: `${hostImageUrl}/coffee/cofee_5_QAkDim0IK.jpg?updatedAt=1724048662199`,
+    STORY_1: `${hostImageUrl}/story/story_1_pbB9kRU_j.png?updatedAt=1724052680872`,
+    STORY_2: `${hostImageUrl}/story/story_2_m2LkU9uyx.png?updatedAt=1724052680819`,
+    STORY_3: `${hostImageUrl}/story/story_3_s4G6kV52M.png?updatedAt=1724052681599`,
+    STORY_4: `${hostImageUrl}/story/story_4__CNVmGvhS.png?updatedAt=1724052680779`,
     BG_ABSTRACT: `${hostImageUrl}/bg-abstract_T6v2RTqRO.png?updatedAt=1723979913634`,
 }
