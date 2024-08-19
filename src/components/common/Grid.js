@@ -6,6 +6,7 @@ const Grid = styled.div`
     gap: ${({ gap }) => gap || "20px"};
     margin: ${({ margin }) => margin || "0 auto"};
     width: 100%;
+    align-items: ${({ align }) => align || "center"};
 
     @media (max-width: 768px) {
         grid-template-columns: repeat(1, 1fr);

@@ -8,10 +8,12 @@ const Card = styled.div`
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    border: 1px solid ${({ theme }) => theme.colors.secondary + "33"};
+    border: ${({ noBorder, theme }) =>
+        !noBorder ? `1px solid ${theme.colors.secondary + "33"}` : "none"};
 
     &:hover {
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: ${({ noBorder }) =>
+            !noBorder ? "0 0 10px 0 rgba(0, 0, 0, 0.1)" : "none"};
         transition: box-shadow 0.2s;
     }
 `
