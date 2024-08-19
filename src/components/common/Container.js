@@ -5,10 +5,10 @@ export const Container = styled.section`
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: ${({ direction }) => direction || "column"};
 
     @media (min-width: 768px) {
-        flex-direction: row;
+        flex-direction: ${({ direction }) => direction || "column"};
         display: flex;
     }
 

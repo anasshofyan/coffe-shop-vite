@@ -11,7 +11,11 @@ const HeroSection = () => (
             {HeroImages.map((image, index) => (
                 <HeroSectionStyles key={index}>
                     <Image src={image.src} alt="hero image" />
-                    <Button style={{ position: "absolute" }} variant="primary">
+                    <Button
+                        role="button"
+                        style={{ position: "absolute" }}
+                        variant="primary"
+                    >
                         {image.icon}
                         {image.buttonText}
                     </Button>

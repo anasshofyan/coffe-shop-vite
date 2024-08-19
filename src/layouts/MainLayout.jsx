@@ -18,24 +18,21 @@ const MainLayout = () => {
                 <NavbarWrapper role="navbar-wrapper">
                     <ShowOnMobile>
                         <NavIcons role="nav-icons">
-                            <Button role="icon-show-menu" variant="secondary">
+                            <Button role="button" variant="secondary">
                                 <Menu size={30} />
                             </Button>
                         </NavIcons>
                     </ShowOnMobile>
                     <ShowOnMobile>
-                        <Button role="logo-point-coffe" variant="secondary">
+                        <Button role="button" variant="secondary">
                             <Logo src={EnumIcons.LOGO_WHITE} />
                         </Button>
                     </ShowOnMobile>
                     <ShowOnDesktop>
-                        <Logo
-                            role="logo-point-coffe"
-                            src={EnumIcons.LOGO_WHITE}
-                        />
+                        <Logo role="img" src={EnumIcons.LOGO_WHITE} />
                     </ShowOnDesktop>
                     <ShowOnDesktop>
-                        <NavMenu role="nav-menu">
+                        <NavMenu role="menu">
                             <NavItem role="nav-item">Promotions</NavItem>
                             <NavItem role="nav-item">Menu</NavItem>
                             <NavItem role="nav-item">Fun Fact</NavItem>
@@ -45,7 +42,7 @@ const MainLayout = () => {
                         </NavMenu>
                     </ShowOnDesktop>
                     <ShowOnDesktop>
-                        <NavIcons role="nav-icons">
+                        <NavIcons role="menu">
                             <Instagram
                                 size={30}
                                 style={{ marginTop: "10px" }}
