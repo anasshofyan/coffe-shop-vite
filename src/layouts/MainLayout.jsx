@@ -41,7 +41,9 @@ const MainLayout = () => {
                                 <Link to="/menu">Menu</Link>
                             </NavItem>
                             <NavItem role="nav-item">Fun Fact</NavItem>
-                            <NavItem role="nav-item">Our Story</NavItem>
+                            <NavItem role="nav-item">
+                                <Link to="/our-story">Our Story</Link>
+                            </NavItem>
                             <NavItem role="nav-item">Feedback</NavItem>
                             <NavItem role="nav-item">Membership</NavItem>
                         </NavMenu>
