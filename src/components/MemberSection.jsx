@@ -8,7 +8,10 @@ import Grid from "./common/Grid"
 import Title from "./common/Title"
 
 const MemberSection = () => (
-    <Container role="members">
+    <Container
+        style={{ marginTop: "100px", marginBottom: "100px" }}
+        role="members"
+    >
         <Title>Membership</Title>
         <Grid columns="repeat(2, 1fr)" gap="20px">
             <Card noBorder>

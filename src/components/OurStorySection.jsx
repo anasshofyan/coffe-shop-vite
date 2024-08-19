@@ -9,7 +9,10 @@ import Title from "./common/Title"
 import { EnumIcons } from "../constants/EnumIcons"
 
 const OurStorySection = () => (
-    <Container role="our-story-section">
+    <Container
+        style={{ marginTop: "100px", marginBottom: "100px" }}
+        role="our-story-section"
+    >
         <Title>Our Story</Title>
         <Grid columns="repeat(3, 1fr)" gap="10px">
             <Card>

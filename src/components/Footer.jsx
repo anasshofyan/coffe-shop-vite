@@ -53,12 +53,18 @@ const Footer = () => (
                     <FooterColumn>
                         <Title size="1.2rem">Contact us</Title>
                         <StyledList>
-                            <li>Location</li>
+                            <li>Location:</li>
                             <li>
-                                MENARA INDOMARET - Jalan Boulevard Pantai Indah
-                                Kapuk, Kel. Kamal Muara, Kec. Penjaringan, Kota
-                                Adm. Jakarta Utara, Provinsi DKI Jakarta, Kode
-                                Pos: 14470 Telp : 02150897400
+                                <p>
+                                    MENARA INDOMARET - Jalan Boulevard Pantai
+                                    Indah Kapuk, Kel. Kamal Muara, Kec.
+                                    Penjaringan, Kota Adm. Jakarta Utara,
+                                    Provinsi DKI Jakarta,
+                                    <br />
+                                    Kode Pos: 14470
+                                    <br />
+                                    Telp :02150897400
+                                </p>
                                 <ListMedsos>
                                     <Instagram size={24} />
                                     <Twitter size={24} />
@@ -102,6 +108,10 @@ const StyledList = styled.ul`
         margin-bottom: 0; /* Remove margin for the last item */
     }
 
+    li p {
+        line-height: 1.8;
+    }
+
     @media (max-width: 768px) {
         li {
             text-align: center;
@@ -112,10 +122,13 @@ const StyledList = styled.ul`
 const ListMedsos = styled.div`
     display: flex;
     gap: 10px;
-    justify-content: center;
     margin-top: 16px;
 
     &:hover {
         cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+        justify-content: center;
     }
 `
