@@ -10,6 +10,7 @@ import Logo from "../components/common/Logo"
 import { ShowOnDesktop, ShowOnMobile } from "../styles/Global.styles"
 import Button from "../components/common/Button"
 import { Link, Outlet } from "react-router-dom"
+import Footer from "../components/Footer"
 
 const MainLayout = () => {
     return (
@@ -57,6 +58,7 @@ const MainLayout = () => {
                 </NavbarWrapper>
             </Navbar>
             <Outlet />
+            <Footer />
         </div>
     )
 }
