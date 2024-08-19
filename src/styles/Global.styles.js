@@ -25,5 +25,6 @@ export const ShowOnMobile = styled.div`
 
     @media (max-width: 768px) {
         display: flex;
+        justify-content: center;
     }
 `

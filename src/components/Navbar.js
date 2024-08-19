@@ -11,7 +11,7 @@ const Navbar = styled.nav`
     padding: 10px;
     align-items: center;
     color: white;
-    z-index: 1000;
+    z-index: 9999;
 `
 
 export const NavbarWrapper = styled.div`

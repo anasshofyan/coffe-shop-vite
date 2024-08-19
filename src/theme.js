@@ -10,7 +10,7 @@ export const theme = {
         primary: "#007d48",
         secondary: "#6c757d",
         success: "#28a745",
-        light: "#f8f9fa",
+        light: "#f7f7f7",
         dark: "#1A1A1A",
     },
 }
