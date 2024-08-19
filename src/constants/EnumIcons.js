@@ -11,5 +11,10 @@ export const EnumIcons = {
     THUMB_3: `${hostImageUrl}/thumbnails/thumb_3_BKxcuCY28.jpg?updatedAt=1723979917380`,
     THUMB_4: `${hostImageUrl}/thumbnails/thumb_4_RzXu6ev1N.jpg?updatedAt=1723979918167`,
     ICON_COFFEE: `${hostImageUrl}/icons/coffee-decaff_eiN8eOVfz.png?updatedAt=1723979913921`,
+    COFEE_1: `${hostImageUrl}/coffee/cofee_1_ij_PG_yfh.jpg?updatedAt=1724048661995`,
+    COFEE_2: `${hostImageUrl}/coffee/cofee_2_9NFZIyjQZ.jpg?updatedAt=1724048662292`,
+    COFEE_3: `${hostImageUrl}/coffee/cofee_3_c7Bd_GHRj.jpg?updatedAt=1724048662318`,
+    COFEE_4: `${hostImageUrl}/coffee/cofee_4_xyaO1muTQ.jpg?updatedAt=1724048662191`,
+    COFEE_5: `${hostImageUrl}/coffee/cofee_5_QAkDim0IK.jpg?updatedAt=1724048662199`,
     BG_ABSTRACT: `${hostImageUrl}/bg-abstract_T6v2RTqRO.png?updatedAt=1723979913634`,
 }

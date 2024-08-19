@@ -1,7 +1,5 @@
-const MenuPage = () => (
-    <div>
-        <h1>Menu Page</h1>
-    </div>
-)
+import ProductSection from "../components/ProductSection"
+
+const MenuPage = () => <ProductSection />
 
 export default MenuPage
